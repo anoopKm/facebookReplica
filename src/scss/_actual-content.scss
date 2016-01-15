@@ -1,0 +1,17 @@
+@import "post-feed";
+@import "news-feed";
+.actualContent {
+  //width: 40%;
+  float: left;
+  text-align: center;
+  //margin-top: 2%
+}
+.card {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);
+  padding-top: 20px;
+  padding-bottom: 8px;
+  margin: 15px 0px 5px;
+}

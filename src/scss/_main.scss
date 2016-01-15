@@ -1,0 +1,41 @@
+@import "left-side-bar";
+@import "actual-content";
+@import "right-side-bar";
+
+body{
+  background-color: #ccc;
+}
+.header {
+    color: white;
+    background-color: #3B5998;
+    line-height: 2.5;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+}
+.logo {
+}
+.navigationButtons {
+    float: right;
+}
+.navBtns {
+    background-color: #1d2c4c;
+    color: white;
+    border-color: #1d2c4c;
+    margin-right:20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.mobile-menu {
+  position: fixed;
+  z-index: 2;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .header {
+      font-size: 35px;
+  }
+  .navBtns {
+      font-size: 35px;
+  }
+}

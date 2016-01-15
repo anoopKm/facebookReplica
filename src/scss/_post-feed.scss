@@ -1,0 +1,30 @@
+.post-feed {
+  textarea {
+    border: none;
+    font-size: 14px;
+    outline: none;
+  }
+  textarea:focus {
+    //border: 1px solid;
+  }
+    button {
+      width: 15%;
+      /* height: 26px; */
+      background-color: #1d2c4c;
+      color: white;
+      border-color: #1d2c4c;
+      /* margin-right: 30px; */
+      float: right;
+  }
+  button:hover {
+    color: white;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .post-feed {
+    textarea {
+      font-size: 20px;
+    }
+  }
+}

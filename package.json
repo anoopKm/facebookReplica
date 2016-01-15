@@ -1,0 +1,39 @@
+{
+  "name": "facebook-replica",
+  "version": "1.0.0",
+  "description": "A platform for brokers to manage the owner's ppt",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "debug": "webpack-dev-server --hot --inline --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anoop Kumar",
+  "dependencies": {
+    "babel": "5.8.29",
+    "babel-core": "5.8.29",
+    "babel-loader": "5.3.2",
+    "babel-runtime": "^6.3.19",
+    "css-loader": "^0.23.1",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.2.0",
+    "eslint-plugin-react": "^3.14.0",
+    "hapi": "8.6.1",
+    "hapi-router": "3.0.1",
+    "history": "^1.17.0",
+    "lodash": "^3.10.1",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "watchify": "^3.6.1",
+    "webpack": "^1.12.10"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^1.7.0",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
