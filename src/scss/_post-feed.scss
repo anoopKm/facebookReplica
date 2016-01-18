@@ -19,6 +19,9 @@
   button:hover {
     color: white;
   }
+  button:focus {
+    color: white;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 990px) {
