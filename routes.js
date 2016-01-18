@@ -1,12 +1,12 @@
-var cfRentalsHandler = require('./src/server.jsx');
+var fbHandler = require('./src/server.jsx');
 
 module.exports = [{
     method: 'GET',
     path: '/',
-    handler: cfRentalsHandler
+    handler: fbHandler
 },
 {
     method: 'GET',
     path: '/example',
-    handler: cfRentalsHandler
+    handler: fbHandler
 }];
