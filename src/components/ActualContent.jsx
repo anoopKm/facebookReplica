@@ -24,7 +24,39 @@ let ActualContent = React.createClass ({
                     ]
                 },
                 {
-                    name: 'Priyanka',
+                    name: 'Ajay',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Dear',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Rakesh',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Meghna',
                     profileLink: 'https://www.facebook.com/anoopiitr',
                     feedText: 'Good Morning Dear',
                     liked: false,
@@ -56,7 +88,135 @@ let ActualContent = React.createClass ({
                     ]
                 },
                 {
-                    name: 'Priyanka',
+                    name: 'Anoop Kumar',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Ajay',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Dear',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Rakesh',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Meghna',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Dear',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Anoop Kumar',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Anoop Kumar',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Ajay',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Dear',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Rakesh',
+                    profileLink: 'https://www.facebook.com/anoopiitr',
+                    feedText: 'Good Morning Friends',
+                    liked: false,
+                    comments: [
+                        {
+                            author: 'Ashu',
+                            comment: 'Hi Wassup friend !'
+                        },
+                        {
+                            author: 'Jack',
+                            comment: 'Chill Bro !!'
+                        }
+                    ]
+                },
+                {
+                    name: 'Meghna',
                     profileLink: 'https://www.facebook.com/anoopiitr',
                     feedText: 'Good Morning Dear',
                     liked: false,

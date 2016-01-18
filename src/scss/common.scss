@@ -12,6 +12,9 @@ body{
   font-size: 18px;
   font-weight: bold;
   font-family: helvetica, arial, sans-serif;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 .logo {
 }
@@ -29,6 +32,18 @@ body{
 .mobile-menu {
   position: fixed;
   z-index: 2;
+}
+.mobileMenu {
+  position: fixed;
+  margin-top: 6.5%;
+  line-height: 1.5;
+  overflow: scroll;
+  height: 93%;
+}
+.welcomeLine {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (min-width: 320px) and (max-width: 990px) {

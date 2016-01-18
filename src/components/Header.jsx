@@ -1,5 +1,7 @@
 import React from 'react';
 import Menu from './LeftSideBar.jsx';
+import LeftSideBar from './LeftSideBar.jsx';
+//reactLogo = require('../image/Facebook_icon.png');
 
 let Header = React.createClass ({
     getDefaultProps() {
@@ -17,25 +19,42 @@ let Header = React.createClass ({
             'showSideMenu': !this.state.showSideMenu
         });
     },
-    getMobileDrawerOverlay() {
+   /* getMobileDrawerOverlay() {
         let markup;
         markup = <div onClick = {this.toggleDrawer}
                       className = {this.state.showSideMenu ? 'drawer-overlay' : 'hidden'}>
                 </div>;
         return markup;
+    },*/
+    getMenuItems() {
+        if (this.state.showSideMenu) {
+            return (
+                <LeftSideBar
+                    wrapperClass = 'col-md-3 col-sm-12 col-xs-12'/>
+            );
+        }
+        else {
+            return '';
+        }
     },
     render() {
         return (
             <div className='row header'>
+                <div className='col-md-12 col-sm-12 col-xs-12 headerContent'>
                 <div className='hidden-lg col-sm-3 col-xs-3 mobile-menu' onClick={this.toggleDrawer}>
                     <span>Menu</span>
                 </div>
-                {this.getMobileDrawerOverlay()}
-                <img className='col-md-4 col-sm-3 col-xs-3 logo' src='/../image/Facebook_icon.png'></img>
-                <span className='col-md-4 col-sm-3 col-xs-3'>Welcome to replica of facebook</span>
-                <div className='col-md-4 col-sm-3 col-xs-3 navigationButtons'>
+                <div className='col-md-4 col-sm-3 col-xs-3'><img className='logo'></img></div>
+                <div className='col-md-4 col-sm-4 col-xs-3 welcomeLine'>
+                    <span>Welcome to replica of facebook</span>
+                </div>
+                <div className='col-md-4 col-sm-5 col-xs-5 navigationButtons'>
                     <button className='col-md-4 btn navBtns'>{this.props.personName}</button>
                     <button className='col-md-4 btn navBtns'>{this.props.homeNavTxt}</button>
+                </div>
+                </div>
+                <div className='hidden-lg col-sm-7 col-xs-7 mobileMenu'>
+                    {this.getMenuItems()}
                 </div>
             </div>
         );

@@ -4,6 +4,8 @@
   //width: 40%;
   float: left;
   text-align: center;
+  position: relative;
+  margin-top: 4%;
   //margin-top: 2%
 }
 .card {
@@ -14,4 +16,10 @@
   padding-top: 20px;
   padding-bottom: 8px;
   margin: 15px 0px 5px;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .actualContent{
+  padding-top: 8%;
+}
 }
